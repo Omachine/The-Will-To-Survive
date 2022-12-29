@@ -1,0 +1,604 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 8072 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/cruzm/OneDrive/Ambiente de Trabalho/IPCA/CEV/The-Will-To-Survive
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50811
+Successfully changed project path to: C:/Users/cruzm/OneDrive/Ambiente de Trabalho/IPCA/CEV/The-Will-To-Survive
+C:/Users/cruzm/OneDrive/Ambiente de Trabalho/IPCA/CEV/The-Will-To-Survive
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12132] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 1844193860 [EditorId] 1844193860 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7K8CKTQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12132] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 1844193860 [EditorId] 1844193860 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7K8CKTQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 108.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/cruzm/OneDrive/Ambiente de Trabalho/IPCA/CEV/The-Will-To-Survive/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.5749
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009880 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 105.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.744 seconds
+Domain Reload Profiling:
+	ReloadAssembly (744ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (523ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (118ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (318ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009784 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruzm\OneDrive\Ambiente de Trabalho\IPCA\CEV\The-Will-To-Survive\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruzm\OneDrive\Ambiente de Trabalho\IPCA\CEV\The-Will-To-Survive\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 94.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.284 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1285ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1008ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (298ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (511ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4045 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (87.6 KB). Loaded Objects now: 4501.
+Memory consumption went from 150.8 MB to 150.7 MB.
+Total: 6.040600 ms (FindLiveObjects: 0.724400 ms CreateObjectMapping: 0.486100 ms MarkObjects: 4.652100 ms  DeleteObjects: 0.175600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5358.333533 seconds.
+  path: Assets/Gonçalo/Sprites Recortados/outdoors.png
+  artifactKey: Guid(01ecab2558ca7e648aede945b688aa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Sprites Recortados/outdoors.png using Guid(01ecab2558ca7e648aede945b688aa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4f4149dac571f4d88f63b7ebcf9fa6') in 0.603154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 235.771486 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_0.asset
+  artifactKey: Guid(2aad32059b0bdaf4dab3adfe0a80f721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_0.asset using Guid(2aad32059b0bdaf4dab3adfe0a80f721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73eb99fbfa90eb9040cc078c016054ab') in 0.025657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_19.asset
+  artifactKey: Guid(df1878ecf8c5d2f4abb0faf0dd85d369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_19.asset using Guid(df1878ecf8c5d2f4abb0faf0dd85d369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22ad64f735719032d3b3049ee3d34c5') in 0.061301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_36.asset
+  artifactKey: Guid(30ef9580074cbcc48868c102d1fb65f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_36.asset using Guid(30ef9580074cbcc48868c102d1fb65f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f22ef1b3cee11065ece119cb310977') in 0.017403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_12.asset
+  artifactKey: Guid(fb4f1d369f5d33640b755dd6f9f24810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_12.asset using Guid(fb4f1d369f5d33640b755dd6f9f24810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef386e0eed664da4e91363965a3d231') in 0.017560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_29.asset
+  artifactKey: Guid(af60272920b055d49a6ef7eb44055aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_29.asset using Guid(af60272920b055d49a6ef7eb44055aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1f5b5c2454eacae1b4616d4c647b9d') in 0.019188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_2.asset
+  artifactKey: Guid(93e1b1024a3ce8547be57700734684ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_2.asset using Guid(93e1b1024a3ce8547be57700734684ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169c704b850179f3fdd2efece4ae21ed') in 0.019798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_28.asset
+  artifactKey: Guid(ead4c85cad08af848a1be7c11ef05887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_28.asset using Guid(ead4c85cad08af848a1be7c11ef05887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1397f7f234ee84775aa6c0b9182b214c') in 0.019473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_37.asset
+  artifactKey: Guid(af1cf7e4745c789448ed87325a245733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_37.asset using Guid(af1cf7e4745c789448ed87325a245733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382d1c0f612210597e3952906ad745b9') in 0.018478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_10.asset
+  artifactKey: Guid(225cde0231d767449b67bc4bf40c23d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_10.asset using Guid(225cde0231d767449b67bc4bf40c23d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4433e9fea4faf8ddc35aff4b2c48b8') in 0.023065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_40.asset
+  artifactKey: Guid(c262839081146d6418125c344ebea403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_40.asset using Guid(c262839081146d6418125c344ebea403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe18855fbb4a32ac89c9b8ee558b7686') in 0.022883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_16.asset
+  artifactKey: Guid(8c04b23c607508d4a934a6f6ead5680c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_16.asset using Guid(8c04b23c607508d4a934a6f6ead5680c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78d1abd65a26df57eb5ad09d0a097cc') in 0.020715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_7.asset
+  artifactKey: Guid(2360b86a3358b6143a0af0ed411593cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_7.asset using Guid(2360b86a3358b6143a0af0ed411593cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83eaf71db49053514bb0ea75842b8e91') in 0.021590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_8.asset
+  artifactKey: Guid(7a343bc836f634e44a52ea6c5dcd6c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_8.asset using Guid(7a343bc836f634e44a52ea6c5dcd6c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed9145725eee3aa0e40a4c9a54fd477') in 0.018731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_21.asset
+  artifactKey: Guid(eab778155ae1e504fadedf5279bda444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_21.asset using Guid(eab778155ae1e504fadedf5279bda444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336926430d37f548ec10d3ef5775e067') in 0.021799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_18.asset
+  artifactKey: Guid(69dee3b7050fb4d49a202a710f0a4a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_18.asset using Guid(69dee3b7050fb4d49a202a710f0a4a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba5a824c0a950fa603cd65219cb6131') in 0.021355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_33.asset
+  artifactKey: Guid(e91e5680b060b6743b6a15e6f433e1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_33.asset using Guid(e91e5680b060b6743b6a15e6f433e1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f1f4b08c341f106f8f5770e256ac00') in 0.021358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_14.asset
+  artifactKey: Guid(38ffdde5f5dee294694f0e91111aaf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_14.asset using Guid(38ffdde5f5dee294694f0e91111aaf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2682f8ec3a99cece6afa84528672271') in 0.022605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_27.asset
+  artifactKey: Guid(9dacdbd47ebe2584ca1440dab350be10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_27.asset using Guid(9dacdbd47ebe2584ca1440dab350be10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a000d0c9579970d9ec8bbf11d582c8') in 0.019995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_32.asset
+  artifactKey: Guid(37de17502d3aa5e46b384ab7a5fcc6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_32.asset using Guid(37de17502d3aa5e46b384ab7a5fcc6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d70c23388e19c9797fc95bc3de23e2') in 0.022509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_6.asset
+  artifactKey: Guid(868b6d19ec074094089030727b5833e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_6.asset using Guid(868b6d19ec074094089030727b5833e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a67f582b3e2f4d4ca545fd30721ae38') in 0.020248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_5.asset
+  artifactKey: Guid(4342302e4e51c3140a3a30bbaf694496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_5.asset using Guid(4342302e4e51c3140a3a30bbaf694496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1869524379d3d28a77991eacdb7813') in 0.022703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_9.asset
+  artifactKey: Guid(3d6c0468f11eea94996bcec544cddc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_9.asset using Guid(3d6c0468f11eea94996bcec544cddc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637c19e61c3b30fe970841f818afdc9b') in 0.022647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.622472 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_43.asset
+  artifactKey: Guid(e2049e2fe34821b41b290bda7351d86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_43.asset using Guid(e2049e2fe34821b41b290bda7351d86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa2aa2558bcf76a7d7278ecb3bc81d0') in 0.015315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_51.asset
+  artifactKey: Guid(bde1f02eb61e4e549b33c056d73ec3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_51.asset using Guid(bde1f02eb61e4e549b33c056d73ec3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769f1dbb5f277b1f3948cb8958a92d7c') in 0.021066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_56.asset
+  artifactKey: Guid(2f93db092bddc3647a0b3009da348b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_56.asset using Guid(2f93db092bddc3647a0b3009da348b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285357b1049f63d046cad79648d15368') in 0.024576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_60.asset
+  artifactKey: Guid(46742a67920f5ed45a19a129d98958ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_60.asset using Guid(46742a67920f5ed45a19a129d98958ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ba900625b5456a73c84b1a0c2221f8') in 0.018668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_64.asset
+  artifactKey: Guid(ff048433227535f4a8fce4723eeb133f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_64.asset using Guid(ff048433227535f4a8fce4723eeb133f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ef009cb10fcaf09d5ce2c6b698b3e5') in 0.019057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_70.asset
+  artifactKey: Guid(39f9b4705d86bf64184db13f45429a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_70.asset using Guid(39f9b4705d86bf64184db13f45429a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00790abab5481c91f8b7dacb780756b') in 0.019443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_77.asset
+  artifactKey: Guid(a44b600fa2d122d488f99f47b8e7e7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_77.asset using Guid(a44b600fa2d122d488f99f47b8e7e7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b460be9b9667ff264f82a625c20fa8e') in 0.019927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_79.asset
+  artifactKey: Guid(9caf3d53dc06bb9488df1a11db3a4cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_79.asset using Guid(9caf3d53dc06bb9488df1a11db3a4cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c859406ec6ffc96ec36a0b698fcf782') in 0.019500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_69.asset
+  artifactKey: Guid(d7a01c40b60aced4083794569d54fdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_69.asset using Guid(d7a01c40b60aced4083794569d54fdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bf077253ce728e2346044880d68e36') in 0.021439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_78.asset
+  artifactKey: Guid(4c2596c4a1bb390429ebb2dbf7ee545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_78.asset using Guid(4c2596c4a1bb390429ebb2dbf7ee545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccefecf4782ed8b557c70c3cf9a1a26c') in 0.020166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_83.asset
+  artifactKey: Guid(fb5dde7502d37584e9c9626cf32813e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_83.asset using Guid(fb5dde7502d37584e9c9626cf32813e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24a1db892df8f1a1895ed2eec5fd60e') in 0.019079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_45.asset
+  artifactKey: Guid(2c77759f840845041ae1e3f3413c7d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_45.asset using Guid(2c77759f840845041ae1e3f3413c7d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066209ac9ee99983f02d7a2489b5087a') in 0.020344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_47.asset
+  artifactKey: Guid(1e6abe8be7f377f47bdfc60dad6dc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_47.asset using Guid(1e6abe8be7f377f47bdfc60dad6dc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0db1b83d59c9315775f7cae7b39c505') in 0.028456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_48.asset
+  artifactKey: Guid(c85b198ec894b71448364d8005464871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_48.asset using Guid(c85b198ec894b71448364d8005464871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ac38b587cb1a0d1dca49aab81396c0') in 0.021850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_66.asset
+  artifactKey: Guid(0472f0ee20d6c0e4c9059be0731ae96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_66.asset using Guid(0472f0ee20d6c0e4c9059be0731ae96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c525e73e7c4e407bc3aa642428e9262e') in 0.020348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_50.asset
+  artifactKey: Guid(935423cdada6ec64e8e106c60de47865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_50.asset using Guid(935423cdada6ec64e8e106c60de47865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d33a78494dbc135fcb61ab09900c44') in 0.026389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_76.asset
+  artifactKey: Guid(42af6897dd53c9c4fb233fe156f00116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_76.asset using Guid(42af6897dd53c9c4fb233fe156f00116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f719af43737e46a354149446d184094') in 0.020713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_72.asset
+  artifactKey: Guid(90c1c69a50076384c85266286702e728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_72.asset using Guid(90c1c69a50076384c85266286702e728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9e5e234ed3120884e501cb19a64a35') in 0.019498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_84.asset
+  artifactKey: Guid(f8dc9f2bd3dff444eb3572e7e0d9a387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_84.asset using Guid(f8dc9f2bd3dff444eb3572e7e0d9a387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2479eb0061d5ceb8f96d25898596f0d') in 0.020131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_59.asset
+  artifactKey: Guid(7adddafad55c70243896fcdf03187fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_59.asset using Guid(7adddafad55c70243896fcdf03187fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637a117279b5f969bb5397710c366597') in 0.023642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_49.asset
+  artifactKey: Guid(12236309458735840b7887140dfcfceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_49.asset using Guid(12236309458735840b7887140dfcfceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c967c5396291aaa058ce65b7350bf92') in 0.023460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_44.asset
+  artifactKey: Guid(5e79de47065c10749b693291a6f9b103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_44.asset using Guid(5e79de47065c10749b693291a6f9b103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac24863d06d107b9846c20ad523f97f3') in 0.024230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.292069 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_87.asset
+  artifactKey: Guid(56951d629820fb74aae941d66e510d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_87.asset using Guid(56951d629820fb74aae941d66e510d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211d362c989d81a2388e35b1098ad1ba') in 0.022370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.212506 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_90.asset
+  artifactKey: Guid(e5d94d89bf3fd3f4fad9008b2cfcb811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_90.asset using Guid(e5d94d89bf3fd3f4fad9008b2cfcb811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d4f5a6419e46ac22c05176719a033a') in 0.019013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_108.asset
+  artifactKey: Guid(c3059c05315b2ea4eb96ec3fc81bbd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_108.asset using Guid(c3059c05315b2ea4eb96ec3fc81bbd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebb2e78e401d66c889d046ef28c2ad4') in 0.024834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_112.asset
+  artifactKey: Guid(1d05210ee53a652429eb88dbdd911c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_112.asset using Guid(1d05210ee53a652429eb88dbdd911c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a4e701baa000a241eae9028312cbbc') in 0.024907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_98.asset
+  artifactKey: Guid(2ea629a63186c0e4ba31fde8c18957ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_98.asset using Guid(2ea629a63186c0e4ba31fde8c18957ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2a4d307f2438fcde6fb6acc950506e') in 0.025390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_93.asset
+  artifactKey: Guid(ee2a9e8c4bbd1794db05f72c400ca070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_93.asset using Guid(ee2a9e8c4bbd1794db05f72c400ca070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e8dd49b551c3831eb8fb1d5015eeec') in 0.020760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_182.asset
+  artifactKey: Guid(c636c91aa0c7a9a4fa13ff61a855eb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_182.asset using Guid(c636c91aa0c7a9a4fa13ff61a855eb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb9c32c5b3a8f2d23e3d1c370d3cf23') in 0.019755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_181.asset
+  artifactKey: Guid(0813ea4c94302df4896b252958456bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_181.asset using Guid(0813ea4c94302df4896b252958456bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630ef55bab9914a775d5579f7be1717b') in 0.020953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_177.asset
+  artifactKey: Guid(2ecd84d1f7e4e5d4693640b979ae16de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_177.asset using Guid(2ecd84d1f7e4e5d4693640b979ae16de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2093b265538b5a6ba8a29524dc4b623') in 0.100259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_173.asset
+  artifactKey: Guid(8d1f3717cf21d0749a9514e791691594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_173.asset using Guid(8d1f3717cf21d0749a9514e791691594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7301d8c2a04259624c504059ec024633') in 0.021506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_162.asset
+  artifactKey: Guid(ada25a9926a4aab48ab925ae26559976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_162.asset using Guid(ada25a9926a4aab48ab925ae26559976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b8da899318b568474a96ae1688326a') in 0.019544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_161.asset
+  artifactKey: Guid(ddb0c6cc6a648a04e9adcb336efb2c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_161.asset using Guid(ddb0c6cc6a648a04e9adcb336efb2c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859156d1f2cb98619f14f3f6dcdd7584') in 0.021095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_190.asset
+  artifactKey: Guid(f3d3a0c73e7e1b247adae24153b7c787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_190.asset using Guid(f3d3a0c73e7e1b247adae24153b7c787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdff0f50891de2c917e8e69e7a43f4f') in 0.019356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_194.asset
+  artifactKey: Guid(ee87bf318402bca4dbf30ea56ddd4bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_194.asset using Guid(ee87bf318402bca4dbf30ea56ddd4bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46124efa40e0bb5949c51ff6232c0c0a') in 0.021986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_191.asset
+  artifactKey: Guid(7ef72e6833f10014981e5681670e9fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_191.asset using Guid(7ef72e6833f10014981e5681670e9fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb9a992f34c3db947d2b8c83f8ff474') in 0.016479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_111.asset
+  artifactKey: Guid(a18cf8a6608b3fc4cbfca58e7c017816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_111.asset using Guid(a18cf8a6608b3fc4cbfca58e7c017816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b7ffe9482642f93f9eb3cdca808b57') in 0.019383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_170.asset
+  artifactKey: Guid(01a694bcb2f49be439c4bb07d9040b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_170.asset using Guid(01a694bcb2f49be439c4bb07d9040b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2560e35b25eee07550691479d8df0e') in 0.025829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_172.asset
+  artifactKey: Guid(a8396ce649399f84ba0c8af9dba80c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_172.asset using Guid(a8396ce649399f84ba0c8af9dba80c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2232e6061d5f24c58fa1abe9269aa4') in 0.023240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_96.asset
+  artifactKey: Guid(e9ed313790fc2f54b82262a1d48a52cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_96.asset using Guid(e9ed313790fc2f54b82262a1d48a52cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ebbd81d0d85675f6812217db7c5471') in 0.020424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_140.asset
+  artifactKey: Guid(3668c5c21a6755f47878ce5b2c016665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_140.asset using Guid(3668c5c21a6755f47878ce5b2c016665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6331f1b5f4793d18fcee01c3cdcf1397') in 0.019936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_192.asset
+  artifactKey: Guid(dc0f6c59e58aa2a4682683e31edabc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_192.asset using Guid(dc0f6c59e58aa2a4682683e31edabc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e2d0256d0d9acb71cae4473fa69fe9') in 0.020920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_179.asset
+  artifactKey: Guid(2bf44ea6c44415e4cb7a239b8107cca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_179.asset using Guid(2bf44ea6c44415e4cb7a239b8107cca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63947f2a4bdee31acceed8e6b1ea875b') in 0.024062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_99.asset
+  artifactKey: Guid(eb3f3e919d0a4544b955efd767df8274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_99.asset using Guid(eb3f3e919d0a4544b955efd767df8274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af44fde6421a7ab3854fb34bf38dd8f9') in 0.024469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_175.asset
+  artifactKey: Guid(4ebd31b36ce8a424e91160e3e11a130f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_175.asset using Guid(4ebd31b36ce8a424e91160e3e11a130f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e6d6a212ac6a8f2a5f94e4c5bfb7e9') in 0.019442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_184.asset
+  artifactKey: Guid(e0b00eb3778ffa743a55edfb7dc11faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_184.asset using Guid(e0b00eb3778ffa743a55edfb7dc11faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a43a5210f2583346e837e9dfb18f2e') in 0.026522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_110.asset
+  artifactKey: Guid(60ac3f0e4468ec84b8fe0a724995e395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_110.asset using Guid(60ac3f0e4468ec84b8fe0a724995e395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81cf207de77cddc6e3a2eded374e9b90') in 0.024396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_188.asset
+  artifactKey: Guid(065b6ed2435d6d244be9689436ce3faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_188.asset using Guid(065b6ed2435d6d244be9689436ce3faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468b06d097eb958e2aef9e5449fb5e52') in 0.024269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Gonçalo/Grids/outdoors_195.asset
+  artifactKey: Guid(607d8debafc96c84fb824076fb8c3973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/outdoors_195.asset using Guid(607d8debafc96c84fb824076fb8c3973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696856ed0dc3b4770f821fa91d6e7bdb') in 0.028150 seconds 

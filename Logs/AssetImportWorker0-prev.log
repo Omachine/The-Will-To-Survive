@@ -1,0 +1,1327 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 8072 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/cruzm/OneDrive/Ambiente de Trabalho/IPCA/CEV/The-Will-To-Survive
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53303
+Successfully changed project path to: C:/Users/cruzm/OneDrive/Ambiente de Trabalho/IPCA/CEV/The-Will-To-Survive
+C:/Users/cruzm/OneDrive/Ambiente de Trabalho/IPCA/CEV/The-Will-To-Survive
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5048] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 1325309303 [EditorId] 1325309303 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7K8CKTQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5048] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 1325309303 [EditorId] 1325309303 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7K8CKTQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 107.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/cruzm/OneDrive/Ambiente de Trabalho/IPCA/CEV/The-Will-To-Survive/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.5749
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011199 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 102.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.840 seconds
+Domain Reload Profiling:
+	ReloadAssembly (841ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (610ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (138ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (372ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009324 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruzm\OneDrive\Ambiente de Trabalho\IPCA\CEV\The-Will-To-Survive\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruzm\OneDrive\Ambiente de Trabalho\IPCA\CEV\The-Will-To-Survive\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.488 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1490ms)
+		BeginReloadAssembly (182ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1149ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (657ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (451ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3230 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (87.6 KB). Loaded Objects now: 3688.
+Memory consumption went from 111.0 MB to 110.9 MB.
+Total: 6.666600 ms (FindLiveObjects: 0.514700 ms CreateObjectMapping: 0.494400 ms MarkObjects: 5.547800 ms  DeleteObjects: 0.108200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 292.826919 seconds.
+  path: Assets/gbisf/outdoors_7.asset
+  artifactKey: Guid(a73099d4cdce6b5428511f3b90a6691f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_7.asset using Guid(a73099d4cdce6b5428511f3b90a6691f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f211936aeb5eafc5a8492ef3a04e92c') in 0.162151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/gbisf/outdoors_21 1.asset
+  artifactKey: Guid(84789bfaf271f624e857306bd0752261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_21 1.asset using Guid(84789bfaf271f624e857306bd0752261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fadae603392faa76b715e65a4878d9') in 0.031682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/gbisf/outdoors_21.asset
+  artifactKey: Guid(b5563d5ce720c174580f749e3035a2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_21.asset using Guid(b5563d5ce720c174580f749e3035a2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaedd19e4baa7b489c806e0beddf13d2') in 0.027351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/gbisf/outdoors_8.asset
+  artifactKey: Guid(10395d2d365f6aa40aef9bfd3af2a493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_8.asset using Guid(10395d2d365f6aa40aef9bfd3af2a493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb59b14e810a51f2b0be3813240f1d72') in 0.030848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/gbisf/outdoors_5.asset
+  artifactKey: Guid(e923a80e5abe4c242b3a72f0ce4a2673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_5.asset using Guid(e923a80e5abe4c242b3a72f0ce4a2673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8e35384a33312a8a69d1d427e4ddaf') in 0.030744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/gbisf/outdoors_19 1.asset
+  artifactKey: Guid(c9a7877ce3232dc48ba49d6a962c054e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_19 1.asset using Guid(c9a7877ce3232dc48ba49d6a962c054e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d61f3d6d6d0eb078e3921e351f87910') in 0.039437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/gbisf/outdoors_23 1.asset
+  artifactKey: Guid(31497989a84794942be877a56de471a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_23 1.asset using Guid(31497989a84794942be877a56de471a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e2a73b203dd4914b8db7e49f7f76b2') in 0.036529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/gbisf/outdoors_4 1.asset
+  artifactKey: Guid(f60ca1313792f9841b2eaad3627717e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_4 1.asset using Guid(f60ca1313792f9841b2eaad3627717e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1251d5004b1f8a83a4fac0d6630692e') in 0.029943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/gbisf/outdoors_12.asset
+  artifactKey: Guid(067cdb25d64f3c14fae6eb0d7626d333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_12.asset using Guid(067cdb25d64f3c14fae6eb0d7626d333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694d0651cdbd3915f554e8d99c451e23') in 0.104109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/gbisf/outdoors_0.asset
+  artifactKey: Guid(6e84f407a1d01b249b2bfe686451ec06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_0.asset using Guid(6e84f407a1d01b249b2bfe686451ec06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5352666bcf1854a7083cc3214593ac05') in 0.038540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/gbisf/outdoors_5 1.asset
+  artifactKey: Guid(11e92898a6260b448b9aab8d666bcce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_5 1.asset using Guid(11e92898a6260b448b9aab8d666bcce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275b238cfced66d54bb4e496d1d9b045') in 0.037135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/gbisf/outdoors_14.asset
+  artifactKey: Guid(5c146bcf460da194f868d2fc965c544d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_14.asset using Guid(5c146bcf460da194f868d2fc965c544d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4e342f502420059ad5def78e21a7cc') in 0.032450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/gbisf/outdoors_4.asset
+  artifactKey: Guid(95652b64ebf1a6e4e9364c505fcc5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_4.asset using Guid(95652b64ebf1a6e4e9364c505fcc5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0256531f76d0a1565fa88eaba66c51ef') in 0.031378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/gbisf/outdoors_20.asset
+  artifactKey: Guid(4a1d3f91abdc8df46b5b57194c6f0283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_20.asset using Guid(4a1d3f91abdc8df46b5b57194c6f0283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6e9ed6daaa49b4dfe3abb509a5c768') in 0.033635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/gbisf/outdoors_24 1.asset
+  artifactKey: Guid(5b4a852b65800884c831b8e40efc0b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_24 1.asset using Guid(5b4a852b65800884c831b8e40efc0b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11cd8ffa1b096b2467932c79e3546600') in 0.032332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/gbisf/outdoors_2 1.asset
+  artifactKey: Guid(632783e6e7d7cac4ebe1fa81b8342504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_2 1.asset using Guid(632783e6e7d7cac4ebe1fa81b8342504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ec5d189853d3181a6cb5196b60feaf') in 0.028558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/gbisf/outdoors_19.asset
+  artifactKey: Guid(e419e376612bc06499e909968e8cb755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_19.asset using Guid(e419e376612bc06499e909968e8cb755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3679515bfa61e989dcbb88b372590a0d') in 0.027003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/gbisf/outdoors_3 1.asset
+  artifactKey: Guid(b72f6d72a0d09e84a97439274647e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_3 1.asset using Guid(b72f6d72a0d09e84a97439274647e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e2dc596b8540ff503a35cffb93bbde') in 0.025129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/gbisf/outdoors_3.asset
+  artifactKey: Guid(54a908a61a340d841963f8bcc7207c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_3.asset using Guid(54a908a61a340d841963f8bcc7207c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9fdd40d3ee3f6cbb70d8fedb62b4c9') in 0.020367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/gbisf/outdoors_23.asset
+  artifactKey: Guid(ee56eb483a6e5d343877d54fefb58e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_23.asset using Guid(ee56eb483a6e5d343877d54fefb58e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780edb4c152196c17ae16378d830622b') in 0.023529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/gbisf/outdoors_15 1.asset
+  artifactKey: Guid(25f878bd71a5b0844ab8ed9ad0ea80e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_15 1.asset using Guid(25f878bd71a5b0844ab8ed9ad0ea80e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281eaa02714c30da7250eca38284991e') in 0.019477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/gbisf/outdoors_24.asset
+  artifactKey: Guid(f07178c3c9554aa41888bd98246cac8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_24.asset using Guid(f07178c3c9554aa41888bd98246cac8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ef6e75900e257153aac415ad8393f6') in 0.019964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/gbisf/outdoors_11.asset
+  artifactKey: Guid(7ddd1855a46909e4b92b46b9a4e49501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_11.asset using Guid(7ddd1855a46909e4b92b46b9a4e49501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a08bdc5da53a3ad3091d20369eb4c5a') in 0.023263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/gbisf/outdoors_15.asset
+  artifactKey: Guid(e523ca96362cb894db66e27fcdb30f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_15.asset using Guid(e523ca96362cb894db66e27fcdb30f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd942893d6cefb23de8b4427c7c0c8c43') in 0.026566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/gbisf/outdoors_16 1.asset
+  artifactKey: Guid(9b4984d4193fdeb49ae609f02419ea96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_16 1.asset using Guid(9b4984d4193fdeb49ae609f02419ea96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e4bc42f0e663d2883b9d50a2e7e26a') in 0.023879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/gbisf/outdoors_1.asset
+  artifactKey: Guid(72b381a64bfdb8642bf06b9120df52ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_1.asset using Guid(72b381a64bfdb8642bf06b9120df52ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8268e90fae821ec93abd8e277a58a3d') in 0.016436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.683092 seconds.
+  path: Assets/gbisf/outdoors_25 1.asset
+  artifactKey: Guid(28a786c19955c0046b9551a512d182f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_25 1.asset using Guid(28a786c19955c0046b9551a512d182f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a41c4e4a7174312452cd563e71b29c') in 0.017698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/gbisf/outdoors_32.asset
+  artifactKey: Guid(bd94bc75dae5b644c8599d3c570be3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_32.asset using Guid(bd94bc75dae5b644c8599d3c570be3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086ae45831eaf331a658651c86a2d1fa') in 0.019444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/gbisf/outdoors_35 1.asset
+  artifactKey: Guid(e74795220440e0747824e094e9c2ce46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_35 1.asset using Guid(e74795220440e0747824e094e9c2ce46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5c96701e8032745c68f4368122bdd1') in 0.020176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/gbisf/outdoors_36.asset
+  artifactKey: Guid(58cb92cda4f9fb44f9990f8197a398ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_36.asset using Guid(58cb92cda4f9fb44f9990f8197a398ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c42c4361a894adde430e05f5b96c61') in 0.022190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/gbisf/outdoors_31.asset
+  artifactKey: Guid(007b84e6f5c03e346ae862668f86f3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_31.asset using Guid(007b84e6f5c03e346ae862668f86f3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60bdf2ca552d24ab202de317ba3fe8c') in 0.022969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/gbisf/outdoors_52.asset
+  artifactKey: Guid(24b2a3668cbf2d8448f249675926dc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_52.asset using Guid(24b2a3668cbf2d8448f249675926dc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3413b16872b606527125158631009ee1') in 0.022321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/gbisf/outdoors_50.asset
+  artifactKey: Guid(e03e27cac31744b46a5f242447e556e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_50.asset using Guid(e03e27cac31744b46a5f242447e556e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462c5a9783c550a031a191c0e3573aa2') in 0.022150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/gbisf/outdoors_51 1.asset
+  artifactKey: Guid(abdbd72d498870c44af37da832317bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_51 1.asset using Guid(abdbd72d498870c44af37da832317bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7938aad1ae6a6c8055eda7a122f82bc') in 0.021333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/gbisf/outdoors_31 1.asset
+  artifactKey: Guid(a1c1b8631809ba74f96d7660e8ea8d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_31 1.asset using Guid(a1c1b8631809ba74f96d7660e8ea8d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94c29d62ca807e13af435a3d3f54bc2') in 0.021723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/gbisf/outdoors_41.asset
+  artifactKey: Guid(eb794c7e864914547916418cea9ea571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_41.asset using Guid(eb794c7e864914547916418cea9ea571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea2195e13fcceac63a4d511278eeb64') in 0.018479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/gbisf/outdoors_34.asset
+  artifactKey: Guid(eb47e4b3ee8c65f43bd9e29d0576e228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_34.asset using Guid(eb47e4b3ee8c65f43bd9e29d0576e228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7aeba1d16b1de044ac78756dbd15596') in 0.024737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/gbisf/outdoors_35.asset
+  artifactKey: Guid(3d0c8457fbd3e1a4db5d98140cdc9ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_35.asset using Guid(3d0c8457fbd3e1a4db5d98140cdc9ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78dacbcd99c0dc62cf295140a6f11f2e') in 0.022136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/gbisf/outdoors_36 1.asset
+  artifactKey: Guid(c7583f78a2e2f98458b80c3a654409a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_36 1.asset using Guid(c7583f78a2e2f98458b80c3a654409a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4844237f4524ac265a3bf9fd9685819') in 0.022613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/gbisf/outdoors_43.asset
+  artifactKey: Guid(8d47fa8f3de38bd4d807eb8113a46838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_43.asset using Guid(8d47fa8f3de38bd4d807eb8113a46838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328e0ddc6613454df85d185f072fb9e2') in 0.022650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/gbisf/outdoors_27.asset
+  artifactKey: Guid(c2f1a61808e763742bf1a77567dbc301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_27.asset using Guid(c2f1a61808e763742bf1a77567dbc301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5575f243768518cd7c03fd521c01c4') in 0.018387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/gbisf/outdoors_56 1.asset
+  artifactKey: Guid(9c2f781a9328b7b429989cf339b0c548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_56 1.asset using Guid(9c2f781a9328b7b429989cf339b0c548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5d2a53da9bf72f50938450509a8964') in 0.017824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/gbisf/outdoors_61.asset
+  artifactKey: Guid(95db43f3ee3ef8542ab5722e00f814de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_61.asset using Guid(95db43f3ee3ef8542ab5722e00f814de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb60ed3e6dd5cfb0e978c58b00db2b1') in 0.022244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/gbisf/outdoors_71.asset
+  artifactKey: Guid(d0fc984e8553e1045aba7cd1c063ba51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_71.asset using Guid(d0fc984e8553e1045aba7cd1c063ba51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbed66f260afb7dd10baee3ee857960c') in 0.025971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/gbisf/outdoors_60 1.asset
+  artifactKey: Guid(aecdd51e3d06aea4fa3592ff06bb03f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_60 1.asset using Guid(aecdd51e3d06aea4fa3592ff06bb03f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d27fc0109682811ef580f179a2159f') in 0.022086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/gbisf/outdoors_72.asset
+  artifactKey: Guid(ea85f723ef50122499c2c1f2cca99107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_72.asset using Guid(ea85f723ef50122499c2c1f2cca99107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f908bb0516c65d97ea3aa941084a2f') in 0.020955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/gbisf/outdoors_63.asset
+  artifactKey: Guid(ff5da047e01043045a5d724c6b45854b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_63.asset using Guid(ff5da047e01043045a5d724c6b45854b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82e879ce08fd27290c0208136147bb8') in 0.021506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/gbisf/outdoors_72 1.asset
+  artifactKey: Guid(78ed61523c2a86045b49d2499aea9f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_72 1.asset using Guid(78ed61523c2a86045b49d2499aea9f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d9d49289f6fc359dca1b89746e4939') in 0.021008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/gbisf/outdoors_78 1.asset
+  artifactKey: Guid(021e104d8d5609e45aa334d3d96c3710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_78 1.asset using Guid(021e104d8d5609e45aa334d3d96c3710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edefdf090b686f1bf059fc28b89d73a') in 0.021905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/gbisf/outdoors_74 1.asset
+  artifactKey: Guid(c9296e6976179234eb5debca404659a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_74 1.asset using Guid(c9296e6976179234eb5debca404659a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e72f6c1744e28e9f9abbfeb567d8cb') in 0.020595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/gbisf/outdoors_66 1.asset
+  artifactKey: Guid(9821ce6fccba9b647978ebbfe419e75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_66 1.asset using Guid(9821ce6fccba9b647978ebbfe419e75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c27c893204cd9e3da70fbc672d1136') in 0.017716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/gbisf/outdoors_79 1.asset
+  artifactKey: Guid(adac4377829572e4a826c27b8fc28f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_79 1.asset using Guid(adac4377829572e4a826c27b8fc28f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83ee9633bf65cf62b67a3b3b32d1f85') in 0.019572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/gbisf/outdoors_64.asset
+  artifactKey: Guid(9d27e8d148fcfeb4788bc47a200de2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_64.asset using Guid(9d27e8d148fcfeb4788bc47a200de2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0653ebed4d2e0e51707a109c489e8427') in 0.020795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/gbisf/outdoors_55 1.asset
+  artifactKey: Guid(d4a28c74b546efc478e9427651d1370a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_55 1.asset using Guid(d4a28c74b546efc478e9427651d1370a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa89fd59ea687f4766ec3fd573c89af') in 0.021736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/gbisf/outdoors_79.asset
+  artifactKey: Guid(6ea3afde8bc689c498204eb36cbd2288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_79.asset using Guid(6ea3afde8bc689c498204eb36cbd2288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6b2118c78820f9a8916f8c7fd24317') in 0.023379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/gbisf/outdoors_80.asset
+  artifactKey: Guid(a64b1fb7137247f488bfb28794539934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_80.asset using Guid(a64b1fb7137247f488bfb28794539934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9c01773d378c969ca94567e7160388') in 0.028497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/gbisf/outdoors_84.asset
+  artifactKey: Guid(f40945ce4028fa3458363835eb877301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_84.asset using Guid(f40945ce4028fa3458363835eb877301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af983440e2ea91ea2ae10a37e789dac') in 0.051780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/gbisf/outdoors_96.asset
+  artifactKey: Guid(a7117d4400f679d4fb5dfa389e0af868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_96.asset using Guid(a7117d4400f679d4fb5dfa389e0af868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78920edb06932f94a7bf0338f9e92542') in 0.036735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/gbisf/outdoors_93.asset
+  artifactKey: Guid(86dc61af2952cdb4ebce151dc33588dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_93.asset using Guid(86dc61af2952cdb4ebce151dc33588dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d159703a057419e1be2bfdf1d8f2f3f') in 0.038517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/gbisf/outdoors_81.asset
+  artifactKey: Guid(a5bb8ea7621ab1f498aef8b77e3fc5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_81.asset using Guid(a5bb8ea7621ab1f498aef8b77e3fc5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a19df484c537cd1c8faf44e157fcb78') in 0.033617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/gbisf/outdoors_44.asset
+  artifactKey: Guid(91cf318d9376f5647a582f962756ef8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_44.asset using Guid(91cf318d9376f5647a582f962756ef8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4467258597377d29bee5ebafa0176da7') in 0.033466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/gbisf/outdoors_65.asset
+  artifactKey: Guid(38381e216fe54b645b62e7e14b777b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_65.asset using Guid(38381e216fe54b645b62e7e14b777b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1be51c13ad962c98fb2accc5da9adc0') in 0.031105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/gbisf/outdoors_81 1.asset
+  artifactKey: Guid(a6d2380df1c834247974cbd4653554ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_81 1.asset using Guid(a6d2380df1c834247974cbd4653554ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a874faa3f6aee630202e6588e824df') in 0.040031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/gbisf/outdoors_95 1.asset
+  artifactKey: Guid(1d6f3111b9b31164f88cb15ce6e76074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_95 1.asset using Guid(1d6f3111b9b31164f88cb15ce6e76074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28781a6c1f3a7b160ac276771f926d37') in 0.039238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/gbisf/outdoors_108 1.asset
+  artifactKey: Guid(9a253a056d6807843ada87fdbcf9dfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_108 1.asset using Guid(9a253a056d6807843ada87fdbcf9dfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651cfdbec6bd85cc57a57adc3fef8443') in 0.021424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/gbisf/outdoors_129 1.asset
+  artifactKey: Guid(77f5bf956970c644c9297ad38949c960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_129 1.asset using Guid(77f5bf956970c644c9297ad38949c960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec0730044d69e348b5f742e74d611f9') in 0.020295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/gbisf/outdoors_106.asset
+  artifactKey: Guid(eb23e083a947f0a459ca4390b56bab2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_106.asset using Guid(eb23e083a947f0a459ca4390b56bab2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e776423b355b6ccfa157d03a9b700d') in 0.022054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/gbisf/outdoors_113.asset
+  artifactKey: Guid(d9b37d0ba03cacb4fa7a421be3c4ba52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_113.asset using Guid(d9b37d0ba03cacb4fa7a421be3c4ba52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a23e7788fa5b467cf78863bbbc2da84') in 0.021724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/gbisf/outdoors_119 1.asset
+  artifactKey: Guid(ec012a90fd1a6794c9fd4e9135a28607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_119 1.asset using Guid(ec012a90fd1a6794c9fd4e9135a28607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27f44f8380ac2dd160f8a1d5bd2a037') in 0.019710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/gbisf/outdoors_110 1.asset
+  artifactKey: Guid(7b558e8f9744ac24b89cc6d5614093b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_110 1.asset using Guid(7b558e8f9744ac24b89cc6d5614093b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6a9870c7e2cb3792d1fefb43eefbc3') in 0.022021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/gbisf/outdoors_127.asset
+  artifactKey: Guid(b97479fc8761ad4429ce2520bce52e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_127.asset using Guid(b97479fc8761ad4429ce2520bce52e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74017b2f1decd18c29bdf722c227d69c') in 0.023087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/gbisf/outdoors_124.asset
+  artifactKey: Guid(ab1da47b44c615340957fa5e6f2f9b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_124.asset using Guid(ab1da47b44c615340957fa5e6f2f9b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4b1f0f73e800a5e33ea33f9a1c5240') in 0.026797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/gbisf/outdoors_134 1.asset
+  artifactKey: Guid(635fa4c4b1e0e664284865273a6dc0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_134 1.asset using Guid(635fa4c4b1e0e664284865273a6dc0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b81bad2a8d02c0d87dd9ee5b6cfc8b') in 0.022428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/gbisf/outdoors_134.asset
+  artifactKey: Guid(072c13b4ef3889a42b06b780145cec71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_134.asset using Guid(072c13b4ef3889a42b06b780145cec71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877776f3f1be0a3a21a26ed095a5600f') in 0.019943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/gbisf/outdoors_117.asset
+  artifactKey: Guid(27f78d9ac14360e40a28d223399acb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_117.asset using Guid(27f78d9ac14360e40a28d223399acb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274c13e9a49741e0326abf7be0df5a3b') in 0.024208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/gbisf/outdoors_133.asset
+  artifactKey: Guid(bd3d93006a1eac445a6a3b3f6314f072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_133.asset using Guid(bd3d93006a1eac445a6a3b3f6314f072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038b2aebe5a03140985d42dc840cf21a') in 0.015949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/gbisf/outdoors_102.asset
+  artifactKey: Guid(cfc97b576f31f2543a502aaad8f9cb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_102.asset using Guid(cfc97b576f31f2543a502aaad8f9cb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc33ae42434d1245b0d368d3785c3b8') in 0.020077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/gbisf/outdoors_124 1.asset
+  artifactKey: Guid(9bad4881613563a4aa9dbb0f8d29ffd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_124 1.asset using Guid(9bad4881613563a4aa9dbb0f8d29ffd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385ca42e99995d26f44ba1439dd2dcc7') in 0.019393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/gbisf/outdoors_130.asset
+  artifactKey: Guid(b5b03e69742a3d24f9bba4f8165ec0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_130.asset using Guid(b5b03e69742a3d24f9bba4f8165ec0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb544496a4d334005279bb2c7885e555') in 0.023431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/gbisf/outdoors_172.asset
+  artifactKey: Guid(27169771d48ad1b40a2d2b667a3e4ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_172.asset using Guid(27169771d48ad1b40a2d2b667a3e4ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c20390e3ffde64afe333bc0639d62e5') in 0.022166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/gbisf/outdoors_143.asset
+  artifactKey: Guid(62b2236741f1b5f48a6b1063dfdde36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_143.asset using Guid(62b2236741f1b5f48a6b1063dfdde36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278e4cba274263bb4c26e8e75bb07801') in 0.024567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/gbisf/outdoors_70 1.asset
+  artifactKey: Guid(6159f4eb3ebc64f4f85d7fda1eb37967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_70 1.asset using Guid(6159f4eb3ebc64f4f85d7fda1eb37967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b6b6737df4cce07a2686d2455ac133') in 0.016779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/gbisf/outdoors_122.asset
+  artifactKey: Guid(51ee23fd9070d77419d5f86bcdbf08d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_122.asset using Guid(51ee23fd9070d77419d5f86bcdbf08d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95af309f8b054e536cdcb47561de87a') in 0.020919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/gbisf/outdoors_162.asset
+  artifactKey: Guid(6ad91f9b4c5d6524c9f703408ce6b4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_162.asset using Guid(6ad91f9b4c5d6524c9f703408ce6b4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51babf6bf7201b75279379ff74cde315') in 0.025295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/gbisf/outdoors_29 1.asset
+  artifactKey: Guid(7e4fdc27f7716154ba27a4cfb6a6b75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_29 1.asset using Guid(7e4fdc27f7716154ba27a4cfb6a6b75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0f3223c2940824f2895d8ac8464b6b') in 0.020713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/gbisf/outdoors_49 1.asset
+  artifactKey: Guid(4a100de73740e2d4d86292ed95010cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_49 1.asset using Guid(4a100de73740e2d4d86292ed95010cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b400f1054d6286a11812acd9544e9d77') in 0.019791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/gbisf/outdoors_109 1.asset
+  artifactKey: Guid(c0cb768e18abd1d42bad3d54b3a127b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_109 1.asset using Guid(c0cb768e18abd1d42bad3d54b3a127b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553e6fe2ee0f7765993a774dd3549129') in 0.018743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/gbisf/outdoors_37.asset
+  artifactKey: Guid(5a8d4519a907ce94b9372b8ab86da50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_37.asset using Guid(5a8d4519a907ce94b9372b8ab86da50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc70c33798a9eabeb453b77bd940e10') in 0.017631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/gbisf/outdoors_48 1.asset
+  artifactKey: Guid(7c218bb3a696f134a821afb2de0dbc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_48 1.asset using Guid(7c218bb3a696f134a821afb2de0dbc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73dd6100e826ca89b469e5b42073e7da') in 0.020283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/gbisf/outdoors_109.asset
+  artifactKey: Guid(6bf27a384da55db47bac44e0c6ef3ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_109.asset using Guid(6bf27a384da55db47bac44e0c6ef3ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd643634abc9698b6371b58f75b88234') in 0.021185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/gbisf/outdoors_28 1.asset
+  artifactKey: Guid(ae38ae7048041c94badaa19d95985d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_28 1.asset using Guid(ae38ae7048041c94badaa19d95985d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e0fe2bee52f34fdde5125ae63cca65') in 0.024091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/gbisf/outdoors_68 1.asset
+  artifactKey: Guid(4d3d4d2570c3601438d95117007ec8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_68 1.asset using Guid(4d3d4d2570c3601438d95117007ec8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9c9b3c6c7250867420c137d1bf87f5') in 0.020268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/gbisf/outdoors_166.asset
+  artifactKey: Guid(cdf08f6ba879d5a4ba42dfd94921a0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_166.asset using Guid(cdf08f6ba879d5a4ba42dfd94921a0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9fafa99ece9b6d7dd306a65b03f2224') in 0.023582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/gbisf/outdoors_145 1.asset
+  artifactKey: Guid(9a2a681f966b1674f8d9f33f0b89cf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_145 1.asset using Guid(9a2a681f966b1674f8d9f33f0b89cf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f80faba2c57e95dace73ebc56a1168d') in 0.023911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/gbisf/outdoors_135 1.asset
+  artifactKey: Guid(7b7baad5afd70b64e8138a7040e8e3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_135 1.asset using Guid(7b7baad5afd70b64e8138a7040e8e3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839fda89a57c80a907dffc822bfa2174') in 0.023489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/gbisf/outdoors_88.asset
+  artifactKey: Guid(0b02e559d92432e46be3f4d244b6e162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_88.asset using Guid(0b02e559d92432e46be3f4d244b6e162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ec7e074235046fb132355748bd1d94') in 0.019529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/gbisf/outdoors_98 1.asset
+  artifactKey: Guid(079528ddefd2e7643a907a617ad58f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_98 1.asset using Guid(079528ddefd2e7643a907a617ad58f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f454544f9254e29c1a79434c6244090') in 0.020548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/gbisf/outdoors_105 1.asset
+  artifactKey: Guid(1f97c063e8b51da4aa632736100d7d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_105 1.asset using Guid(1f97c063e8b51da4aa632736100d7d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81176fecd12c98e74a43ac8e0a018815') in 0.021578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/gbisf/outdoors_113 1.asset
+  artifactKey: Guid(6e90c50e6c370f349b62474395966a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_113 1.asset using Guid(6e90c50e6c370f349b62474395966a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdef77fadd7972dd7bde57741af97e3d') in 0.023008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/gbisf/outdoors_101 1.asset
+  artifactKey: Guid(9b3dd2731fa5f444d98942d77986ff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_101 1.asset using Guid(9b3dd2731fa5f444d98942d77986ff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2446e2ce43d4743718b8bfd4895c5bd6') in 0.023275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/gbisf/outdoors_119.asset
+  artifactKey: Guid(0d081b4c541d1bb47bd98e9a87b5c678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_119.asset using Guid(0d081b4c541d1bb47bd98e9a87b5c678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6448e6715f72b3e8cfe4473498c13621') in 0.023407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/gbisf/outdoors_126 1.asset
+  artifactKey: Guid(854e2ff87a3877b4a9d296c370617224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_126 1.asset using Guid(854e2ff87a3877b4a9d296c370617224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21d5b995b799739dd2ed4a0f4ea5fad') in 0.020758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/gbisf/outdoors_164 1.asset
+  artifactKey: Guid(8b91390ecc50d7f40a80620aeaa3e406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_164 1.asset using Guid(8b91390ecc50d7f40a80620aeaa3e406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28264688f32554109fc5eb6daae412d') in 0.021779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/gbisf/outdoors_85.asset
+  artifactKey: Guid(ddf39cf5ae475c64bb04685c2df5fe5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_85.asset using Guid(ddf39cf5ae475c64bb04685c2df5fe5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717c47511ee984abdcf9688ea19cf8fb') in 0.021345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/gbisf/tiles.prefab
+  artifactKey: Guid(c1dde3774566fad41a7567ee34af44b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/tiles.prefab using Guid(c1dde3774566fad41a7567ee34af44b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e569b3c962b9c32e4f4ec47b8903e4e') in 0.253100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/gbisf/outdoors_86.asset
+  artifactKey: Guid(fa13628290f3b074aa87c774c6b7f47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_86.asset using Guid(fa13628290f3b074aa87c774c6b7f47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746d9da58d19f3249d5283f8b23139d4') in 0.023307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/gbisf/outdoors_80 1.asset
+  artifactKey: Guid(d06b3c186b242dc409e0ced901965ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_80 1.asset using Guid(d06b3c186b242dc409e0ced901965ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb8d1ca4dd0070288b7d15819b64e41') in 0.020891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/gbisf/outdoors_43 1.asset
+  artifactKey: Guid(4497f49204295244a991665162040b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_43 1.asset using Guid(4497f49204295244a991665162040b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d1fcb0673e95cc174af6d24102be8e') in 0.020506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/gbisf/outdoors_47 1.asset
+  artifactKey: Guid(aff5a61fd2a96b941a7529bd7ea9ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_47 1.asset using Guid(aff5a61fd2a96b941a7529bd7ea9ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cb2a9055b76db7c53c1bae6f4be793') in 0.023541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/gbisf/outdoors_53.asset
+  artifactKey: Guid(ca51cea4c6c5c2d459d2b22f848e9441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_53.asset using Guid(ca51cea4c6c5c2d459d2b22f848e9441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f35817b708a1c27e0de129470b9e2fc') in 0.024866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/gbisf/outdoors_88 1.asset
+  artifactKey: Guid(8c677d699ad6dd34fbab56d83e07d99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_88 1.asset using Guid(8c677d699ad6dd34fbab56d83e07d99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe16f1871a64c3e466979c8351f5017') in 0.025411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/gbisf/outdoors_120.asset
+  artifactKey: Guid(562d5e612573c8049b015577dbfb663b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_120.asset using Guid(562d5e612573c8049b015577dbfb663b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a79a4b58cd4fa795c92963fcd18a21') in 0.021846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/gbisf/outdoors_139 1.asset
+  artifactKey: Guid(e26357491b33993448c93bd24d42124e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_139 1.asset using Guid(e26357491b33993448c93bd24d42124e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1820e326514a591745ed7afbaca7c1c5') in 0.021768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/gbisf/outdoors_73 1.asset
+  artifactKey: Guid(ef073732e71ba9d4dba8e2164832783b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_73 1.asset using Guid(ef073732e71ba9d4dba8e2164832783b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a3859abc3c9e2d2d153e630f5f1ccb') in 0.019203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/gbisf/outdoors_63 1.asset
+  artifactKey: Guid(bc482a9de6211114c99972679f8ae652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_63 1.asset using Guid(bc482a9de6211114c99972679f8ae652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98af1bc0bba4051d494a0df769754b9') in 0.022066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/gbisf/outdoors_54 1.asset
+  artifactKey: Guid(2f4c2f5c8e005ac47b186e2b2a40f33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_54 1.asset using Guid(2f4c2f5c8e005ac47b186e2b2a40f33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a404c099eb28f88d66f929e450e9d08') in 0.027737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/gbisf/outdoors_87.asset
+  artifactKey: Guid(2de9b6967fcbe9e4eb5b54a6ecacaa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_87.asset using Guid(2de9b6967fcbe9e4eb5b54a6ecacaa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec810fa892940963451366b131d4c4d6') in 0.021723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/gbisf/outdoors_56.asset
+  artifactKey: Guid(cef260f057f677249b94115eace57a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_56.asset using Guid(cef260f057f677249b94115eace57a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3203252b6d27baa68b241a27c57ab426') in 0.020582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/gbisf/outdoors_170.asset
+  artifactKey: Guid(56f62821166e7974e832b033830cad30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_170.asset using Guid(56f62821166e7974e832b033830cad30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa9a39a37d5c3d9edc031a545a19c72') in 0.019833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/gbisf/outdoors_174.asset
+  artifactKey: Guid(821a13238c77d4e48b810d825de6d28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_174.asset using Guid(821a13238c77d4e48b810d825de6d28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f97fbff1fefcfae4e42299f801cbfc') in 0.026685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/gbisf/outdoors_148.asset
+  artifactKey: Guid(e8bd648da9ad0454d865f2634307e981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_148.asset using Guid(e8bd648da9ad0454d865f2634307e981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56436eedcf2c94e09f02b0f0518214e4') in 0.025762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/gbisf/outdoors_132 1.asset
+  artifactKey: Guid(448146d5fd7882d4a8d879ea4fab0f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_132 1.asset using Guid(448146d5fd7882d4a8d879ea4fab0f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1a42f224dab229b2a58b77f8532437') in 0.025241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/gbisf/outdoors_152.asset
+  artifactKey: Guid(0db2c9c87d2ef774fb53eb420d183bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_152.asset using Guid(0db2c9c87d2ef774fb53eb420d183bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20357d802b11fbe6790d380eed2472e2') in 0.024425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/gbisf/outdoors_107 1.asset
+  artifactKey: Guid(7391066e4566a564d973e50cb3e632ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_107 1.asset using Guid(7391066e4566a564d973e50cb3e632ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22ddafe531bf2047422418f098c751a') in 0.025005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/gbisf/outdoors_129.asset
+  artifactKey: Guid(8cf8490f6560a584ebfdc86b07a56c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_129.asset using Guid(8cf8490f6560a584ebfdc86b07a56c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a946942cf2d27e32a6a53a26f80d4cd') in 0.025698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/gbisf/outdoors_98.asset
+  artifactKey: Guid(61e45318ead509745983c61af0df668a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_98.asset using Guid(61e45318ead509745983c61af0df668a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2753314c5ffe41f28530b7790956c6c') in 0.023808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/gbisf/outdoors_91.asset
+  artifactKey: Guid(eb8c2b6056b62c4428cc7d80570e98cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_91.asset using Guid(eb8c2b6056b62c4428cc7d80570e98cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ff1740eab32b22b05e597f8f6998fe') in 0.021003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/gbisf/outdoors_58 1.asset
+  artifactKey: Guid(b28f338dab410064c8f78f5031a276df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_58 1.asset using Guid(b28f338dab410064c8f78f5031a276df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efaa93a923e6399597928d685839e698') in 0.022386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/gbisf/outdoors_75.asset
+  artifactKey: Guid(ddbc3791239243643babd56de0e57271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_75.asset using Guid(ddbc3791239243643babd56de0e57271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6f4fa182954b99a1af90f1ac0ac61c') in 0.023900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/gbisf/outdoors_51.asset
+  artifactKey: Guid(8366d8a3c0731ea4aa44a8f618495eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_51.asset using Guid(8366d8a3c0731ea4aa44a8f618495eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a968a67aad0036af48c9825e782fec42') in 0.023870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/gbisf/outdoors_137.asset
+  artifactKey: Guid(7f68231719a2e1345a247dc726678a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_137.asset using Guid(7f68231719a2e1345a247dc726678a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86a427daac103e3c27768fd1b0e8a30') in 0.024064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/gbisf/outdoors_149.asset
+  artifactKey: Guid(d66e6d5fae79e5f4eaa36ae0c96a9c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_149.asset using Guid(d66e6d5fae79e5f4eaa36ae0c96a9c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a2d57ee15e19452903720bdb661cea') in 0.022191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/gbisf/outdoors_120 1.asset
+  artifactKey: Guid(1f28833b49f00a945b25fea8effc357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_120 1.asset using Guid(1f28833b49f00a945b25fea8effc357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80336263f145fcc4e41b875a7a4d0ecb') in 0.021943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/gbisf/outdoors_117 1.asset
+  artifactKey: Guid(b49065fb1cc7a6c4f86fa02ec023cecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_117 1.asset using Guid(b49065fb1cc7a6c4f86fa02ec023cecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bebaf88f6e73dd40eddb019046e7cc4') in 0.019829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/gbisf/outdoors_37 1.asset
+  artifactKey: Guid(c047b5b18ba513149b642babd1bdf76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_37 1.asset using Guid(c047b5b18ba513149b642babd1bdf76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b52404c992fa71b6e7b15f9f9d960ae') in 0.024635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/gbisf/outdoors_164.asset
+  artifactKey: Guid(6ae0d48ea49ca87409e98416606e1385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_164.asset using Guid(6ae0d48ea49ca87409e98416606e1385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458ff14d2a9ae1259aed466c5a1fb5ea') in 0.023613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/gbisf/outdoors_150 1.asset
+  artifactKey: Guid(a1975ef3a15d3144291abed65b85ebc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_150 1.asset using Guid(a1975ef3a15d3144291abed65b85ebc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4884f2b1d1c0d70e39ffe37e5b5894') in 0.023207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/gbisf/outdoors_100.asset
+  artifactKey: Guid(9eccbcda1b23dd04c887f8705ee85699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_100.asset using Guid(9eccbcda1b23dd04c887f8705ee85699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16851a4f8d3c1853784755b1acb39b1') in 0.030458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/gbisf/outdoors_91 1.asset
+  artifactKey: Guid(67509c89b96c3a34f959c1375232f7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_91 1.asset using Guid(67509c89b96c3a34f959c1375232f7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd4b20a9e4099bdf85acd8c958d5c05') in 0.024396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/gbisf/outdoors_166 1.asset
+  artifactKey: Guid(7fa9e3ef239b8b7499e56c236f852843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_166 1.asset using Guid(7fa9e3ef239b8b7499e56c236f852843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdaeb9ffa75841da9e72bd79ae33c32') in 0.025087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/gbisf/outdoors_156.asset
+  artifactKey: Guid(735b99ca9aefbdf49bc60dda1f379172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_156.asset using Guid(735b99ca9aefbdf49bc60dda1f379172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d63a569725d4747e085eb4cbb48c68e') in 0.028192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/gbisf/outdoors_104 1.asset
+  artifactKey: Guid(530834d285dac504b9303a356066bb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_104 1.asset using Guid(530834d285dac504b9303a356066bb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ad3b921132d4b4441a0005238ea0fb') in 0.028259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/gbisf/outdoors_82.asset
+  artifactKey: Guid(3cca9482f1882c64b89fb40d4d5c00db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_82.asset using Guid(3cca9482f1882c64b89fb40d4d5c00db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54aff9a54bd96fe2f26bb59e1d1193c4') in 0.024592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/gbisf/outdoors_95.asset
+  artifactKey: Guid(6f41ea46d777bc64ca3209a43cc83683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_95.asset using Guid(6f41ea46d777bc64ca3209a43cc83683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c5f15837bc5bc4425387fa93dfaa8a') in 0.029416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/gbisf/outdoors_106 1.asset
+  artifactKey: Guid(8aa4334823ab61a4ca144553e71b4569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_106 1.asset using Guid(8aa4334823ab61a4ca144553e71b4569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6609245c1dbf60152f2473ca12c4380d') in 0.025314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/gbisf/outdoors_178.asset
+  artifactKey: Guid(f4780dfa269f0a049a0bc861f2e823d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_178.asset using Guid(f4780dfa269f0a049a0bc861f2e823d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484254ea8588daa92dc3158d3bd1467b') in 0.025798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/gbisf/outdoors_142.asset
+  artifactKey: Guid(59187001b2545514c8df792511d1d246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_142.asset using Guid(59187001b2545514c8df792511d1d246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac2fafd75cf83880cc97f6948db971b') in 0.025455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/gbisf/outdoors_145.asset
+  artifactKey: Guid(016fecbe81e896c41a98e21ebbe13728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_145.asset using Guid(016fecbe81e896c41a98e21ebbe13728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b96b0711918660c784224cc7832ef9') in 0.025828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/gbisf/outdoors_92 1.asset
+  artifactKey: Guid(93308fff3d6f92b459424ce424ef5650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_92 1.asset using Guid(93308fff3d6f92b459424ce424ef5650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b379e818a615a470c8dcf7f5f591076') in 0.024658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/gbisf/outdoors_128.asset
+  artifactKey: Guid(57ec7561706bde945a2b3150f27f4f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_128.asset using Guid(57ec7561706bde945a2b3150f27f4f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccb7c7e1d16f49dc887fec22565f69f') in 0.026559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/gbisf/outdoors_60.asset
+  artifactKey: Guid(7009c70e80b606b47993ab83fc22e4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_60.asset using Guid(7009c70e80b606b47993ab83fc22e4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ca05b9698ac6048b13f51597ebd8a4') in 0.024610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/gbisf/outdoors_39.asset
+  artifactKey: Guid(b3c87a0ffe1046c46bdaae8825b31b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_39.asset using Guid(b3c87a0ffe1046c46bdaae8825b31b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa84571b5032a0da3e111e93c2e0e5f') in 0.016209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/gbisf/outdoors_94.asset
+  artifactKey: Guid(cbdf16bac45e8f2489d13986fb945d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_94.asset using Guid(cbdf16bac45e8f2489d13986fb945d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220200d87d21529588a1589f53e055fb') in 0.027350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/gbisf/outdoors_77 1.asset
+  artifactKey: Guid(fdb91f7ebc0557b41936a4437fd03cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_77 1.asset using Guid(fdb91f7ebc0557b41936a4437fd03cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d30f6b43f0d90c833fc18c2ef3f40c6') in 0.026079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/gbisf/outdoors_71 1.asset
+  artifactKey: Guid(21ddc15f83c175b4b9adfa377709f860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_71 1.asset using Guid(21ddc15f83c175b4b9adfa377709f860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2994883aa67f082bf73fd5c21f3c87aa') in 0.026022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/gbisf/outdoors_110.asset
+  artifactKey: Guid(218f9c99bddcf7a4ea3c6fba7f0ffae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_110.asset using Guid(218f9c99bddcf7a4ea3c6fba7f0ffae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44d0192318797c24516424822229a20') in 0.029802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/gbisf/outdoors_75 1.asset
+  artifactKey: Guid(b33c17bb1f4241d49893239902712c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_75 1.asset using Guid(b33c17bb1f4241d49893239902712c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea40ada82662a62251092d940cf9f88b') in 0.028498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/gbisf/outdoors_89 1.asset
+  artifactKey: Guid(ed40c5fb2e929754fa4b9aaae7901d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_89 1.asset using Guid(ed40c5fb2e929754fa4b9aaae7901d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3520cac2f3c885f0df9d01ffe8b26446') in 0.030748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/gbisf/outdoors_118 1.asset
+  artifactKey: Guid(b618f6164dc2c594783378fbabffdef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_118 1.asset using Guid(b618f6164dc2c594783378fbabffdef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b93904e82e73183174e05a7cf26d3e9') in 0.028960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/gbisf/outdoors_153.asset
+  artifactKey: Guid(aa94c39819f901a46b9e91dbea42c27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_153.asset using Guid(aa94c39819f901a46b9e91dbea42c27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c59055ca25fe055c0b6e6ff931d456') in 0.027642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/gbisf/outdoors_151.asset
+  artifactKey: Guid(f24081e631312e14794ff3266604eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_151.asset using Guid(f24081e631312e14794ff3266604eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03848510bbdd34f6505f309a5cbdd5ff') in 0.029816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/gbisf/outdoors_85 1.asset
+  artifactKey: Guid(cfad08ab2c3dc2d418c5e171f04609ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_85 1.asset using Guid(cfad08ab2c3dc2d418c5e171f04609ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77281a8c9dfc615e5367a42e673d133a') in 0.024702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/gbisf/outdoors_150.asset
+  artifactKey: Guid(6aad3aa9f1072584ba55d59b3f188fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_150.asset using Guid(6aad3aa9f1072584ba55d59b3f188fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc6f175b43ffca85b69c6575482596f') in 0.030968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/gbisf/outdoors_62 1.asset
+  artifactKey: Guid(d9fac5a8c90b1034a9e9b03284d5f93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_62 1.asset using Guid(d9fac5a8c90b1034a9e9b03284d5f93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d546e61b44a0db8c547e3f6735958c4') in 0.024484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/gbisf/outdoors_84 1.asset
+  artifactKey: Guid(d8acded8cf699244abb243b476db180a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors_84 1.asset using Guid(d8acded8cf699244abb243b476db180a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa8b2addc40a110983ce4f75ad1ef94') in 0.027765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.843429 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(4e8fbea1934a60c46b4d25eb3f055957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(4e8fbea1934a60c46b4d25eb3f055957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c861d54b9577f26d5b9c6cc8ca4ea04e') in 0.006457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.628013 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4935f35005d3ccd51bf39964504ff1b7') in 0.005692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.143709 seconds.
+  path: Assets/New Folder 1
+  artifactKey: Guid(e83d96d57b82ae340b2d8ead57862c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder 1 using Guid(e83d96d57b82ae340b2d8ead57862c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4883854f2fd7c164e1737e17cd053e') in 0.006202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.985168 seconds.
+  path: Assets/Andre
+  artifactKey: Guid(1efdc36415e94184db700b27ddda0e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Andre using Guid(1efdc36415e94184db700b27ddda0e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758bf103eae6cfd1257742d7a3234bf5') in 0.006568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.659675 seconds.
+  path: Assets/Gonçalo
+  artifactKey: Guid(4e8fbea1934a60c46b4d25eb3f055957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo using Guid(4e8fbea1934a60c46b4d25eb3f055957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a01de2619c2323728b2ad3525a775f0') in 0.006334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.328834 seconds.
+  path: Assets/Nuno
+  artifactKey: Guid(e83d96d57b82ae340b2d8ead57862c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nuno using Guid(e83d96d57b82ae340b2d8ead57862c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa25035206e55fd4a4bf25576ee5fa2') in 0.009351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.242860 seconds.
+  path: Assets/gbisf
+  artifactKey: Guid(b18da5a4d063e1c43a6ff39f39d242e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf using Guid(b18da5a4d063e1c43a6ff39f39d242e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8305ff8c787694fdb82850e027e3534') in 0.080444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.644469 seconds.
+  path: Assets/gbisf/tile.prefab
+  artifactKey: Guid(826ab24d9a4b9e241a64cf820ab99a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/tile.prefab using Guid(826ab24d9a4b9e241a64cf820ab99a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9344c8d1f1d2ec51a1824ebf06abc285') in 0.044277 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032684 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruzm\OneDrive\Ambiente de Trabalho\IPCA\CEV\The-Will-To-Survive\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruzm\OneDrive\Ambiente de Trabalho\IPCA\CEV\The-Will-To-Survive\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 248.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.620 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2621ms)
+		BeginReloadAssembly (287ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (2097ms)
+			LoadAssemblies (231ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (710ms)
+			ReleaseScriptCaches (9ms)
+			RebuildScriptCaches (153ms)
+			SetupLoadedEditorAssemblies (822ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (249ms)
+				BeforeProcessingInitializeOnLoad (184ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4040 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (195.5 KB). Loaded Objects now: 4601.
+Memory consumption went from 155.0 MB to 154.8 MB.
+Total: 6.457900 ms (FindLiveObjects: 0.354000 ms CreateObjectMapping: 0.263200 ms MarkObjects: 5.694600 ms  DeleteObjects: 0.145300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 305.759783 seconds.
+  path: Assets/gbisf/outdoors.png
+  artifactKey: Guid(01ecab2558ca7e648aede945b688aa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gbisf/outdoors.png using Guid(01ecab2558ca7e648aede945b688aa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601e68230b7bcb3883a8e6b0d996aa25') in 0.445393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 216.374212 seconds.
+  path: Assets/Sprite/indoors.png
+  artifactKey: Guid(f253234e496083c459feeb8bc809b7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/indoors.png using Guid(f253234e496083c459feeb8bc809b7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b7bc3ecbff4b5baaf12a966aa07d37') in 0.152825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 234.804094 seconds.
+  path: Assets/Gonçalo/Grids
+  artifactKey: Guid(33e403f5dd8737c429ad1a634bbff4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids using Guid(33e403f5dd8737c429ad1a634bbff4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6d9575d7be6c930d233b8eb82353a9') in 0.007730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.734765 seconds.
+  path: Assets/Gonçalo/Grids/Foreground.prefab
+  artifactKey: Guid(797b4cf32b939d3439911f87d0676f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/Foreground.prefab using Guid(797b4cf32b939d3439911f87d0676f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e8d3a51d9d17eb04a19a9f08a59a4f') in 0.121082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.431180 seconds.
+  path: Assets/Gonçalo/Grids/Background.prefab
+  artifactKey: Guid(ba8a48cbc9f181e458e930b1d3b53631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/Background.prefab using Guid(ba8a48cbc9f181e458e930b1d3b53631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d720cf641d99b401f594bed2551b130') in 0.020218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.856791 seconds.
+  path: Assets/Gonçalo/Grids/Ground.prefab
+  artifactKey: Guid(43c3156f2729f38418d76808ae285d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/Ground.prefab using Guid(43c3156f2729f38418d76808ae285d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1e221e2bcf2bc5aa554e66c18e0a8b') in 0.018784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.240168 seconds.
+  path: Assets/Gonçalo/Grids/Background.prefab
+  artifactKey: Guid(ba8a48cbc9f181e458e930b1d3b53631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/Background.prefab using Guid(ba8a48cbc9f181e458e930b1d3b53631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf5e8eacb98de7d66820e9f5b959136') in 0.011492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.916927 seconds.
+  path: Assets/Gonçalo/Grids/Background.prefab
+  artifactKey: Guid(ba8a48cbc9f181e458e930b1d3b53631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/Background.prefab using Guid(ba8a48cbc9f181e458e930b1d3b53631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4dc32418b020c8f1c4c7b37f474261f') in 0.009096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.349580 seconds.
+  path: Assets/Gonçalo/Grids/Ground.prefab
+  artifactKey: Guid(43c3156f2729f38418d76808ae285d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/Ground.prefab using Guid(43c3156f2729f38418d76808ae285d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9caa97faa21fae1bbb17480810a58e5c') in 0.008289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.354878 seconds.
+  path: Assets/Gonçalo/Grids/Ground.prefab
+  artifactKey: Guid(43c3156f2729f38418d76808ae285d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Grids/Ground.prefab using Guid(43c3156f2729f38418d76808ae285d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c11304e0962af3c357a45909762a7da') in 0.009655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2030.009906 seconds.
+  path: Assets/Gonçalo/Sprites Recortados/outdoors.png
+  artifactKey: Guid(01ecab2558ca7e648aede945b688aa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gonçalo/Sprites Recortados/outdoors.png using Guid(01ecab2558ca7e648aede945b688aa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb41517ad531859b2bcabcd5f69999ac') in 0.419453 seconds 
