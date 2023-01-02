@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c799a83af40889478a386bdf2c302e0, type: 3}
+  m_Name: InitialQuest
+  m_EditorClassIdentifier: 
+  objective: Encontrar origem dos gritos.
+  objectiveLocation: {x: -11.37, y: 4.33}
+  initialDialogs:
+  - text: "<sigh>\u2026"
+    sprite: {fileID: 21300000, guid: 20b938d14c443864b8e2d8764e3a7670, type: 3}
+  - text: "Por que eu me sinto assim? Por que eu n\xE3o consigo sair deste buraco?
+      Eu j\xE1 tentei tudo... terapia, medicamentos, exerc\xEDcios... Mas nada parece
+      funcionar."
+    sprite: {fileID: 21300000, guid: 20b938d14c443864b8e2d8764e3a7670, type: 3}
+  - text: "Ainda por cima o mundo entrou neste caos. N\xE3o \xE9 como se eu tivesse
+      alguma coisa a perder. Tenho?"
+    sprite: {fileID: 21300000, guid: 20b938d14c443864b8e2d8764e3a7670, type: 3}
+  - text: "Secalhar era melhor eu acabar\u2026"
+    sprite: {fileID: 21300000, guid: 20b938d14c443864b8e2d8764e3a7670, type: 3}
+  - text: Aaaaaaaaaah
+    sprite: {fileID: 21300000, guid: f63a4f52b80d6c9498c2b858865a05ce, type: 3}
+  - text: Hm? Um grito? Aqui perto?
+    sprite: {fileID: 21300000, guid: 20b938d14c443864b8e2d8764e3a7670, type: 3}
+  - text: "Ser\xE1 que eu devia\u2026?"
+    sprite: {fileID: 21300000, guid: 20b938d14c443864b8e2d8764e3a7670, type: 3}
+  - text: "Naa\u2026 Para qu\xEA? N\xE3o \xE9 como se salvar outra pessoa fosse me
+      fazer redimir dos meus pecados\u2026"
+    sprite: {fileID: 21300000, guid: 20b938d14c443864b8e2d8764e3a7670, type: 3}
+  - text: "\u2026"
+    sprite: {fileID: 21300000, guid: 20b938d14c443864b8e2d8764e3a7670, type: 3}
+  - text: "<sigh> Ok. Eu vou l\xE1\u2026 N\xE3o \xE9 como se tivesse algo a perder\u2026"
+    sprite: {fileID: 21300000, guid: 20b938d14c443864b8e2d8764e3a7670, type: 3}

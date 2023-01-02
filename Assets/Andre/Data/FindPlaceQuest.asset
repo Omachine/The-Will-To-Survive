@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c799a83af40889478a386bdf2c302e0, type: 3}
+  m_Name: FindPlaceQuest
+  m_EditorClassIdentifier: 
+  objective: Encontrar um lugar seguro.
+  objectiveLocation: {x: 0, y: 0}
+  initialDialogs:
+  - text: "<snif> <snif>. Mm\u2026 muito obrigada\u2026"
+    sprite: {fileID: 21300000, guid: 0e1adadc058775a49bcd6f7f89cfce86, type: 3}
+  - text: "<snif> <snif>. Se n\xE3o fosses tu. Eu provavelmente j\xE1 tinha sido\u2026
+      <gulp>"
+    sprite: {fileID: 21300000, guid: 0e1adadc058775a49bcd6f7f89cfce86, type: 3}
+  - text: "Ainda bem que pude ajudar. D\xE1 pr\xF3xima vez tem mais cuidado. O mundo
+      j\xE1 n\xE3o \xE9 mais o mesmo\u2026"
+    sprite: {fileID: 21300000, guid: 20b938d14c443864b8e2d8764e3a7670, type: 3}
+  - text: "Espera\u2026 Espera\u2026 N\xE3o me deixes sozinha\u2026 <snif> <snif>"
+    sprite: {fileID: 21300000, guid: 0e1adadc058775a49bcd6f7f89cfce86, type: 3}
+  - text: "\u2026"
+    sprite: {fileID: 21300000, guid: 20b938d14c443864b8e2d8764e3a7670, type: 3}
+  - text: "<sigh> Tudo bem. Podes vir comigo. Vamos para um lugar seguro. Est\xE1
+      a ficar de noite."
+    sprite: {fileID: 21300000, guid: 20b938d14c443864b8e2d8764e3a7670, type: 3}
