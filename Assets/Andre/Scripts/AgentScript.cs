@@ -38,7 +38,20 @@ public class AgentScript : MonoBehaviour
         // Animate
         if (agent.velocity.magnitude > 0.1f)
         {
-            GetComponent<Animator>().SetBool("isIdle", false); 
+            GetComponent<Animator>().SetBool("isIdle", false);
+
+            //// if player is moving
+            //if (target.GetComponent<PlayerMovement>().isMoving)
+            //{
+            //    GetComponent<Animator>().SetFloat("vertical", agent.velocity.y);
+            //    GetComponent<Animator>().SetFloat("horizontal", agent.velocity.x);
+            //}
+            //else
+            //{
+            //    GetComponent<Animator>().SetFloat("vertical", 0);
+            //    GetComponent<Animator>().SetFloat("horizontal", 0);
+            //}
+
         }
         else
         {

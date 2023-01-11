@@ -14,6 +14,7 @@ public class DialogBox : MonoBehaviour
     private Button nextButton;
     private Button previousButton;
     private Button closeButton;
+    public GameObject girl;
 
     
     private void Awake()
@@ -47,6 +48,13 @@ public class DialogBox : MonoBehaviour
 
             // Change game manager current quest
             gameManager.currentQuest = quest;
+
+            // if is girl quest, hide girl
+            if (quest.objective == "Encontrar um lugar seguro.")
+            {
+                // Find gameobject girl and hide it
+                girl.SetActive(false);
+            }
         }
         else
         {

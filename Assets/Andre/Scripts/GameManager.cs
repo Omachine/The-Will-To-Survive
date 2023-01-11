@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     public Quest initialQuest;
     public Quest currentQuest;
     public PlayerMovement player;
-    private bool isGameOver = false;
+    public bool isGameOver = false;
 
     // Start is called before the first frame update
     void Start()
@@ -32,8 +32,14 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        var dist = Math.Round(Vector2.Distance(currentQuest.objectiveLocation, player.transform.position), 0);
-        questObjectiveText.text = currentQuest.objective + $" ({dist}m)";
+        try
+        {
+            var dist = Math.Round(Vector2.Distance(currentQuest.objectiveLocation, player.transform.position), 0);
+            questObjectiveText.text = currentQuest.objective + $" ({dist}m)";
+        }
+        catch (Exception)
+        {
+        }
 
 
         if (Input.GetKeyDown(KeyCode.Return) && isGameOver)

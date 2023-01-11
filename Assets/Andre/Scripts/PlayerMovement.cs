@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
 
     // Flag to track if the character is currently moving
-    private bool isMoving = false;
+    public bool isMoving = false;
 
     void Start()
     {
